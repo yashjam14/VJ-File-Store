@@ -1,8 +1,3 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
-
 import re
 import os
 from os import environ
@@ -20,7 +15,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "23795380"))
 API_HASH = environ.get("API_HASH", "95fdf78cbaa000bfce8b103f44d06618")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7950540145:AAG7dr5bpVl1a0fVXsS4p71PB77DC3OLIvQ")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7950540145:AAF5do312NlIJJE5gCy_0wex0q2085Aoyl4")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -35,7 +30,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://yashjamdar59:<db_password>@cluster0.pu2wdwm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "techvjbotz")
 
 # Auto Delete Information
